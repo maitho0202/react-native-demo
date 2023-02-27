@@ -7,6 +7,7 @@ import Login from './login';
 import Home from './home';
 import Setting from './setting';
 import PushNotification from './notification';
+import Map from './map';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +24,7 @@ export default Root = () => {
         //         <Stack.Screen name='Setting' component={Setting} />
         //     </Stack.Navigator>
         // </NavigationContainer>
-        <PushNotification />
+        // <PushNotification />
+        <Map />
     );
 }
